@@ -1,5 +1,5 @@
-﻿生成启动时间为 2013/4/2 19:45:31。
-     1>项目“D:\Documents\Visual_Studio_2010\Projects\SEEAS\SEEAS\SEEAS.vcxproj”在节点 2 上(build 个目标)。
+﻿生成启动时间为 2013/4/7 15:51:05。
+     1>项目“E:\Workspace\Visual_Studio_2010\SEEAS\SEEAS\SEEAS.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\SEEAS.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        CustomBuild:
@@ -9,12 +9,12 @@
          所有输出均为最新。
        Link:
          所有输出均为最新。
-         SEEAS.vcxproj -> D:\Documents\Visual_Studio_2010\Projects\SEEAS\Win32\Debug\SEEAS.exe
+         SEEAS.vcxproj -> E:\Workspace\Visual_Studio_2010\SEEAS\Win32\Debug\SEEAS.exe
        FinalizeBuildStatus:
          正在删除文件“Debug\SEEAS.unsuccessfulbuild”。
          正在对“Debug\SEEAS.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“D:\Documents\Visual_Studio_2010\Projects\SEEAS\SEEAS\SEEAS.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“E:\Workspace\Visual_Studio_2010\SEEAS\SEEAS\SEEAS.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.05
+已用时间 00:00:00.38

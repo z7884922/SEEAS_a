@@ -6,9 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>507</width>
-    <height>372</height>
+    <width>549</width>
+    <height>423</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
   </property>
   <property name="mouseTracking">
    <bool>false</bool>
@@ -19,11 +25,17 @@
   <widget class="QTextBrowser" name="textBrowser">
    <property name="geometry">
     <rect>
-     <x>360</x>
-     <y>240</y>
+     <x>400</x>
+     <y>300</y>
      <width>91</width>
-     <height>91</height>
+     <height>81</height>
     </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
    </property>
    <property name="html">
     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -36,27 +48,41 @@ p, li { white-space: pre-wrap; }
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>20</y>
-     <width>271</width>
-     <height>31</height>
+     <x>9</x>
+     <y>9</y>
+     <width>531</width>
+     <height>244</height>
     </rect>
    </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
    <property name="text">
-    <string>小朋友们大家好：
-    欢迎使用XX系统！</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; color:#ff0000;&quot;&gt;欢迎使用大软课程管理系统！&lt;/span&gt;&lt;/p&gt;&lt;p&gt;各模块的介绍： &lt;/p&gt;&lt;p&gt;分组管理：管理分组情况，各个成员的角色分配等。&lt;/p&gt;&lt;p&gt;文档管理：管理各个小组上传的文档，自动进行归类，设置文档提交期限，查看各 小组是否按时提交文档。 &lt;/p&gt;&lt;p&gt;指标管理：管理总分中的各项权重，以及小组评分中各指标的名称以及权重。 &lt;/p&gt;&lt;p&gt;评分管理：进行小组分的评分，权重可以在指标管理中进行更改。 &lt;/p&gt;&lt;p&gt;互评管理：各小组成员在这个模块中进行互评，互评分的各项指标的权重也在此模块中更改。&lt;/p&gt;&lt;p&gt;贡献管理：管理各个小组的贡献分情况。 &lt;/p&gt;&lt;p&gt;成绩管理：进行成绩单的输出、核对、计算总分等。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
    </property>
   </widget>
   <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>210</y>
-     <width>77</width>
-     <height>121</height>
+     <x>10</x>
+     <y>360</y>
+     <width>239</width>
+     <height>25</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
+   <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
      <widget class="QPushButton" name="pushButton">
       <property name="text">

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'indicatemng.ui'
 **
-** Created: Tue Apr 2 19:29:21 2013
+** Created: Sun Apr 7 09:45:53 2013
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -31,19 +31,23 @@ QT_BEGIN_NAMESPACE
 class Ui_IndicateMng
 {
 public:
-    QHBoxLayout *horizontalLayout_9;
+    QVBoxLayout *verticalLayout_2;
     QScrollArea *scrollArea;
     QWidget *scrollAreaWidgetContents;
     QVBoxLayout *verticalLayout;
     QHBoxLayout *horizontalLayout;
     QLabel *mark1Label;
     QSpinBox *mark1SpinBox;
+    QLabel *label_47;
     QLabel *mark2Label;
     QSpinBox *mark2SpinBox;
+    QLabel *label_48;
     QLabel *mark3Label;
     QSpinBox *mark3SpinBox;
+    QLabel *label_49;
     QLabel *mark4Label;
     QSpinBox *mark4SpinBox;
+    QLabel *label_50;
     QGroupBox *groupBox;
     QGridLayout *gridLayout;
     QLabel *pro1_1Label;
@@ -77,38 +81,38 @@ public:
     QSpacerItem *horizontalSpacer;
     QGroupBox *groupBox_2;
     QGridLayout *gridLayout_2;
-    QLabel *pro2_1Label;
-    QLineEdit *pro2_1LineEdit;
-    QSpinBox *pro2_1SpinBox;
-    QLabel *label_10;
-    QLabel *pro2_2Label;
-    QLineEdit *pro2_2LineEdit;
-    QSpinBox *pro2_2SpinBox;
-    QLabel *label_14;
-    QLabel *pro2_3Label;
-    QLineEdit *pro2_3LineEdit;
-    QSpinBox *pro2_3SpinBox;
-    QLabel *label_9;
-    QLabel *pro2_4Label;
-    QLineEdit *pro2_4LineEdit;
     QSpinBox *pro2_4SpinBox;
-    QLabel *label_13;
-    QLabel *pro2_5Label;
-    QLineEdit *pro2_5LineEdit;
-    QSpinBox *pro2_5SpinBox;
-    QLabel *label_11;
+    QSpinBox *pro2_7SpinBox;
     QLabel *pro2_6Label;
-    QLineEdit *pro2_6LineEdit;
+    QLabel *pro2_8Label;
+    QLineEdit *pro2_2LineEdit;
     QSpinBox *pro2_6SpinBox;
-    QLabel *label_15;
+    QLabel *label_13;
+    QSpinBox *pro2_2SpinBox;
+    QLabel *pro2_2Label;
     QLabel *pro2_7Label;
     QLineEdit *pro2_7LineEdit;
-    QSpinBox *pro2_7SpinBox;
+    QLabel *label_15;
+    QLabel *pro2_4Label;
+    QLabel *pro2_1Label;
+    QSpinBox *pro2_3SpinBox;
+    QSpinBox *pro2_1SpinBox;
+    QLineEdit *pro2_4LineEdit;
+    QLabel *label_11;
+    QLineEdit *pro2_5LineEdit;
+    QSpinBox *pro2_5SpinBox;
+    QLineEdit *pro2_6LineEdit;
+    QLabel *label_9;
+    QLabel *pro2_5Label;
+    QLineEdit *pro2_1LineEdit;
+    QLabel *label_14;
+    QLabel *pro2_3Label;
     QLabel *label_8;
-    QLabel *pro2_8Label;
-    QLineEdit *pro2_8LineEdit;
-    QSpinBox *pro2_8SpinBox;
     QLabel *label_12;
+    QLineEdit *pro2_8LineEdit;
+    QLineEdit *pro2_3LineEdit;
+    QLabel *label_10;
+    QSpinBox *pro2_8SpinBox;
     QGroupBox *groupBox_3;
     QGridLayout *gridLayout_3;
     QLabel *pro3_1Label;
@@ -249,22 +253,22 @@ public:
     {
         if (IndicateMng->objectName().isEmpty())
             IndicateMng->setObjectName(QString::fromUtf8("IndicateMng"));
-        IndicateMng->resize(488, 258);
+        IndicateMng->resize(539, 258);
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(IndicateMng->sizePolicy().hasHeightForWidth());
         IndicateMng->setSizePolicy(sizePolicy);
-        horizontalLayout_9 = new QHBoxLayout(IndicateMng);
-        horizontalLayout_9->setSpacing(6);
-        horizontalLayout_9->setContentsMargins(11, 11, 11, 11);
-        horizontalLayout_9->setObjectName(QString::fromUtf8("horizontalLayout_9"));
+        verticalLayout_2 = new QVBoxLayout(IndicateMng);
+        verticalLayout_2->setSpacing(6);
+        verticalLayout_2->setContentsMargins(11, 11, 11, 11);
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         scrollArea = new QScrollArea(IndicateMng);
         scrollArea->setObjectName(QString::fromUtf8("scrollArea"));
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 451, 906));
+        scrollAreaWidgetContents->setGeometry(QRect(0, -656, 502, 894));
         verticalLayout = new QVBoxLayout(scrollAreaWidgetContents);
         verticalLayout->setSpacing(6);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
@@ -279,8 +283,14 @@ public:
 
         mark1SpinBox = new QSpinBox(scrollAreaWidgetContents);
         mark1SpinBox->setObjectName(QString::fromUtf8("mark1SpinBox"));
+        mark1SpinBox->setValue(70);
 
         horizontalLayout->addWidget(mark1SpinBox);
+
+        label_47 = new QLabel(scrollAreaWidgetContents);
+        label_47->setObjectName(QString::fromUtf8("label_47"));
+
+        horizontalLayout->addWidget(label_47);
 
         mark2Label = new QLabel(scrollAreaWidgetContents);
         mark2Label->setObjectName(QString::fromUtf8("mark2Label"));
@@ -289,8 +299,14 @@ public:
 
         mark2SpinBox = new QSpinBox(scrollAreaWidgetContents);
         mark2SpinBox->setObjectName(QString::fromUtf8("mark2SpinBox"));
+        mark2SpinBox->setValue(10);
 
         horizontalLayout->addWidget(mark2SpinBox);
+
+        label_48 = new QLabel(scrollAreaWidgetContents);
+        label_48->setObjectName(QString::fromUtf8("label_48"));
+
+        horizontalLayout->addWidget(label_48);
 
         mark3Label = new QLabel(scrollAreaWidgetContents);
         mark3Label->setObjectName(QString::fromUtf8("mark3Label"));
@@ -299,8 +315,14 @@ public:
 
         mark3SpinBox = new QSpinBox(scrollAreaWidgetContents);
         mark3SpinBox->setObjectName(QString::fromUtf8("mark3SpinBox"));
+        mark3SpinBox->setValue(10);
 
         horizontalLayout->addWidget(mark3SpinBox);
+
+        label_49 = new QLabel(scrollAreaWidgetContents);
+        label_49->setObjectName(QString::fromUtf8("label_49"));
+
+        horizontalLayout->addWidget(label_49);
 
         mark4Label = new QLabel(scrollAreaWidgetContents);
         mark4Label->setObjectName(QString::fromUtf8("mark4Label"));
@@ -309,8 +331,14 @@ public:
 
         mark4SpinBox = new QSpinBox(scrollAreaWidgetContents);
         mark4SpinBox->setObjectName(QString::fromUtf8("mark4SpinBox"));
+        mark4SpinBox->setValue(10);
 
         horizontalLayout->addWidget(mark4SpinBox);
+
+        label_50 = new QLabel(scrollAreaWidgetContents);
+        label_50->setObjectName(QString::fromUtf8("label_50"));
+
+        horizontalLayout->addWidget(label_50);
 
 
         verticalLayout->addLayout(horizontalLayout);
@@ -336,6 +364,7 @@ public:
 
         pro1_1SpinBox = new QSpinBox(groupBox);
         pro1_1SpinBox->setObjectName(QString::fromUtf8("pro1_1SpinBox"));
+        pro1_1SpinBox->setValue(10);
 
         gridLayout->addWidget(pro1_1SpinBox, 0, 2, 1, 1);
 
@@ -353,17 +382,18 @@ public:
         pro1_2LineEdit = new QLineEdit(groupBox);
         pro1_2LineEdit->setObjectName(QString::fromUtf8("pro1_2LineEdit"));
 
-        gridLayout->addWidget(pro1_2LineEdit, 0, 7, 1, 1);
+        gridLayout->addWidget(pro1_2LineEdit, 0, 6, 1, 1);
 
         pro1_2SpinBox = new QSpinBox(groupBox);
         pro1_2SpinBox->setObjectName(QString::fromUtf8("pro1_2SpinBox"));
+        pro1_2SpinBox->setValue(10);
 
-        gridLayout->addWidget(pro1_2SpinBox, 0, 8, 1, 1);
+        gridLayout->addWidget(pro1_2SpinBox, 0, 7, 1, 1);
 
         label_6 = new QLabel(groupBox);
         label_6->setObjectName(QString::fromUtf8("label_6"));
 
-        gridLayout->addWidget(label_6, 0, 9, 1, 1);
+        gridLayout->addWidget(label_6, 0, 8, 1, 1);
 
         pro1_3Label = new QLabel(groupBox);
         pro1_3Label->setObjectName(QString::fromUtf8("pro1_3Label"));
@@ -378,6 +408,7 @@ public:
 
         pro1_3SpinBox = new QSpinBox(groupBox);
         pro1_3SpinBox->setObjectName(QString::fromUtf8("pro1_3SpinBox"));
+        pro1_3SpinBox->setValue(30);
 
         gridLayout->addWidget(pro1_3SpinBox, 1, 2, 1, 1);
 
@@ -395,17 +426,18 @@ public:
         pro1_4LineEdit = new QLineEdit(groupBox);
         pro1_4LineEdit->setObjectName(QString::fromUtf8("pro1_4LineEdit"));
 
-        gridLayout->addWidget(pro1_4LineEdit, 1, 7, 1, 1);
+        gridLayout->addWidget(pro1_4LineEdit, 1, 6, 1, 1);
 
         pro1_4SpinBox = new QSpinBox(groupBox);
         pro1_4SpinBox->setObjectName(QString::fromUtf8("pro1_4SpinBox"));
+        pro1_4SpinBox->setValue(25);
 
-        gridLayout->addWidget(pro1_4SpinBox, 1, 8, 1, 1);
+        gridLayout->addWidget(pro1_4SpinBox, 1, 7, 1, 1);
 
         label_5 = new QLabel(groupBox);
         label_5->setObjectName(QString::fromUtf8("label_5"));
 
-        gridLayout->addWidget(label_5, 1, 9, 1, 1);
+        gridLayout->addWidget(label_5, 1, 8, 1, 1);
 
         pro1_5Label = new QLabel(groupBox);
         pro1_5Label->setObjectName(QString::fromUtf8("pro1_5Label"));
@@ -420,6 +452,7 @@ public:
 
         pro1_5SpinBox = new QSpinBox(groupBox);
         pro1_5SpinBox->setObjectName(QString::fromUtf8("pro1_5SpinBox"));
+        pro1_5SpinBox->setValue(10);
 
         gridLayout->addWidget(pro1_5SpinBox, 2, 2, 1, 1);
 
@@ -437,17 +470,18 @@ public:
         pro1_6LineEdit = new QLineEdit(groupBox);
         pro1_6LineEdit->setObjectName(QString::fromUtf8("pro1_6LineEdit"));
 
-        gridLayout->addWidget(pro1_6LineEdit, 2, 7, 1, 1);
+        gridLayout->addWidget(pro1_6LineEdit, 2, 6, 1, 1);
 
         pro1_6SpinBox = new QSpinBox(groupBox);
         pro1_6SpinBox->setObjectName(QString::fromUtf8("pro1_6SpinBox"));
+        pro1_6SpinBox->setValue(10);
 
-        gridLayout->addWidget(pro1_6SpinBox, 2, 8, 1, 1);
+        gridLayout->addWidget(pro1_6SpinBox, 2, 7, 1, 1);
 
         label_7 = new QLabel(groupBox);
         label_7->setObjectName(QString::fromUtf8("label_7"));
 
-        gridLayout->addWidget(label_7, 2, 9, 1, 1);
+        gridLayout->addWidget(label_7, 2, 8, 1, 1);
 
         pro1_7Label = new QLabel(groupBox);
         pro1_7Label->setObjectName(QString::fromUtf8("pro1_7Label"));
@@ -462,6 +496,7 @@ public:
 
         pro1_7SpinBox = new QSpinBox(groupBox);
         pro1_7SpinBox->setObjectName(QString::fromUtf8("pro1_7SpinBox"));
+        pro1_7SpinBox->setValue(5);
 
         gridLayout->addWidget(pro1_7SpinBox, 3, 2, 1, 1);
 
@@ -472,7 +507,7 @@ public:
 
         horizontalSpacer = new QSpacerItem(207, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
-        gridLayout->addItem(horizontalSpacer, 3, 4, 1, 6);
+        gridLayout->addItem(horizontalSpacer, 3, 4, 1, 4);
 
 
         verticalLayout->addWidget(groupBox);
@@ -485,110 +520,17 @@ public:
         gridLayout_2->setSpacing(6);
         gridLayout_2->setContentsMargins(11, 11, 11, 11);
         gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
-        pro2_1Label = new QLabel(groupBox_2);
-        pro2_1Label->setObjectName(QString::fromUtf8("pro2_1Label"));
-        pro2_1Label->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
-
-        gridLayout_2->addWidget(pro2_1Label, 0, 0, 1, 1);
-
-        pro2_1LineEdit = new QLineEdit(groupBox_2);
-        pro2_1LineEdit->setObjectName(QString::fromUtf8("pro2_1LineEdit"));
-
-        gridLayout_2->addWidget(pro2_1LineEdit, 0, 1, 1, 1);
-
-        pro2_1SpinBox = new QSpinBox(groupBox_2);
-        pro2_1SpinBox->setObjectName(QString::fromUtf8("pro2_1SpinBox"));
-
-        gridLayout_2->addWidget(pro2_1SpinBox, 0, 2, 1, 1);
-
-        label_10 = new QLabel(groupBox_2);
-        label_10->setObjectName(QString::fromUtf8("label_10"));
-
-        gridLayout_2->addWidget(label_10, 0, 3, 1, 1);
-
-        pro2_2Label = new QLabel(groupBox_2);
-        pro2_2Label->setObjectName(QString::fromUtf8("pro2_2Label"));
-        pro2_2Label->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
-
-        gridLayout_2->addWidget(pro2_2Label, 0, 4, 1, 1);
-
-        pro2_2LineEdit = new QLineEdit(groupBox_2);
-        pro2_2LineEdit->setObjectName(QString::fromUtf8("pro2_2LineEdit"));
-
-        gridLayout_2->addWidget(pro2_2LineEdit, 0, 5, 1, 1);
-
-        pro2_2SpinBox = new QSpinBox(groupBox_2);
-        pro2_2SpinBox->setObjectName(QString::fromUtf8("pro2_2SpinBox"));
-
-        gridLayout_2->addWidget(pro2_2SpinBox, 0, 6, 1, 1);
-
-        label_14 = new QLabel(groupBox_2);
-        label_14->setObjectName(QString::fromUtf8("label_14"));
-
-        gridLayout_2->addWidget(label_14, 0, 7, 1, 1);
-
-        pro2_3Label = new QLabel(groupBox_2);
-        pro2_3Label->setObjectName(QString::fromUtf8("pro2_3Label"));
-        pro2_3Label->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
-
-        gridLayout_2->addWidget(pro2_3Label, 1, 0, 1, 1);
-
-        pro2_3LineEdit = new QLineEdit(groupBox_2);
-        pro2_3LineEdit->setObjectName(QString::fromUtf8("pro2_3LineEdit"));
-
-        gridLayout_2->addWidget(pro2_3LineEdit, 1, 1, 1, 1);
-
-        pro2_3SpinBox = new QSpinBox(groupBox_2);
-        pro2_3SpinBox->setObjectName(QString::fromUtf8("pro2_3SpinBox"));
-
-        gridLayout_2->addWidget(pro2_3SpinBox, 1, 2, 1, 1);
-
-        label_9 = new QLabel(groupBox_2);
-        label_9->setObjectName(QString::fromUtf8("label_9"));
-
-        gridLayout_2->addWidget(label_9, 1, 3, 1, 1);
-
-        pro2_4Label = new QLabel(groupBox_2);
-        pro2_4Label->setObjectName(QString::fromUtf8("pro2_4Label"));
-        pro2_4Label->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
-
-        gridLayout_2->addWidget(pro2_4Label, 1, 4, 1, 1);
-
-        pro2_4LineEdit = new QLineEdit(groupBox_2);
-        pro2_4LineEdit->setObjectName(QString::fromUtf8("pro2_4LineEdit"));
-
-        gridLayout_2->addWidget(pro2_4LineEdit, 1, 5, 1, 1);
-
         pro2_4SpinBox = new QSpinBox(groupBox_2);
         pro2_4SpinBox->setObjectName(QString::fromUtf8("pro2_4SpinBox"));
+        pro2_4SpinBox->setValue(5);
 
         gridLayout_2->addWidget(pro2_4SpinBox, 1, 6, 1, 1);
 
-        label_13 = new QLabel(groupBox_2);
-        label_13->setObjectName(QString::fromUtf8("label_13"));
+        pro2_7SpinBox = new QSpinBox(groupBox_2);
+        pro2_7SpinBox->setObjectName(QString::fromUtf8("pro2_7SpinBox"));
+        pro2_7SpinBox->setValue(10);
 
-        gridLayout_2->addWidget(label_13, 1, 7, 1, 1);
-
-        pro2_5Label = new QLabel(groupBox_2);
-        pro2_5Label->setObjectName(QString::fromUtf8("pro2_5Label"));
-        pro2_5Label->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
-
-        gridLayout_2->addWidget(pro2_5Label, 2, 0, 1, 1);
-
-        pro2_5LineEdit = new QLineEdit(groupBox_2);
-        pro2_5LineEdit->setObjectName(QString::fromUtf8("pro2_5LineEdit"));
-
-        gridLayout_2->addWidget(pro2_5LineEdit, 2, 1, 1, 1);
-
-        pro2_5SpinBox = new QSpinBox(groupBox_2);
-        pro2_5SpinBox->setObjectName(QString::fromUtf8("pro2_5SpinBox"));
-
-        gridLayout_2->addWidget(pro2_5SpinBox, 2, 2, 1, 1);
-
-        label_11 = new QLabel(groupBox_2);
-        label_11->setObjectName(QString::fromUtf8("label_11"));
-
-        gridLayout_2->addWidget(label_11, 2, 3, 1, 1);
+        gridLayout_2->addWidget(pro2_7SpinBox, 3, 2, 1, 1);
 
         pro2_6Label = new QLabel(groupBox_2);
         pro2_6Label->setObjectName(QString::fromUtf8("pro2_6Label"));
@@ -596,20 +538,39 @@ public:
 
         gridLayout_2->addWidget(pro2_6Label, 2, 4, 1, 1);
 
-        pro2_6LineEdit = new QLineEdit(groupBox_2);
-        pro2_6LineEdit->setObjectName(QString::fromUtf8("pro2_6LineEdit"));
+        pro2_8Label = new QLabel(groupBox_2);
+        pro2_8Label->setObjectName(QString::fromUtf8("pro2_8Label"));
+        pro2_8Label->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
 
-        gridLayout_2->addWidget(pro2_6LineEdit, 2, 5, 1, 1);
+        gridLayout_2->addWidget(pro2_8Label, 3, 4, 1, 1);
+
+        pro2_2LineEdit = new QLineEdit(groupBox_2);
+        pro2_2LineEdit->setObjectName(QString::fromUtf8("pro2_2LineEdit"));
+
+        gridLayout_2->addWidget(pro2_2LineEdit, 0, 5, 1, 1);
 
         pro2_6SpinBox = new QSpinBox(groupBox_2);
         pro2_6SpinBox->setObjectName(QString::fromUtf8("pro2_6SpinBox"));
+        pro2_6SpinBox->setValue(10);
 
         gridLayout_2->addWidget(pro2_6SpinBox, 2, 6, 1, 1);
 
-        label_15 = new QLabel(groupBox_2);
-        label_15->setObjectName(QString::fromUtf8("label_15"));
+        label_13 = new QLabel(groupBox_2);
+        label_13->setObjectName(QString::fromUtf8("label_13"));
 
-        gridLayout_2->addWidget(label_15, 2, 7, 1, 1);
+        gridLayout_2->addWidget(label_13, 1, 7, 1, 1);
+
+        pro2_2SpinBox = new QSpinBox(groupBox_2);
+        pro2_2SpinBox->setObjectName(QString::fromUtf8("pro2_2SpinBox"));
+        pro2_2SpinBox->setValue(20);
+
+        gridLayout_2->addWidget(pro2_2SpinBox, 0, 6, 1, 1);
+
+        pro2_2Label = new QLabel(groupBox_2);
+        pro2_2Label->setObjectName(QString::fromUtf8("pro2_2Label"));
+        pro2_2Label->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        gridLayout_2->addWidget(pro2_2Label, 0, 4, 1, 1);
 
         pro2_7Label = new QLabel(groupBox_2);
         pro2_7Label->setObjectName(QString::fromUtf8("pro2_7Label"));
@@ -622,37 +583,142 @@ public:
 
         gridLayout_2->addWidget(pro2_7LineEdit, 3, 1, 1, 1);
 
-        pro2_7SpinBox = new QSpinBox(groupBox_2);
-        pro2_7SpinBox->setObjectName(QString::fromUtf8("pro2_7SpinBox"));
+        label_15 = new QLabel(groupBox_2);
+        label_15->setObjectName(QString::fromUtf8("label_15"));
 
-        gridLayout_2->addWidget(pro2_7SpinBox, 3, 2, 1, 1);
+        gridLayout_2->addWidget(label_15, 2, 7, 1, 1);
+
+        pro2_4Label = new QLabel(groupBox_2);
+        pro2_4Label->setObjectName(QString::fromUtf8("pro2_4Label"));
+        pro2_4Label->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        gridLayout_2->addWidget(pro2_4Label, 1, 4, 1, 1);
+
+        pro2_1Label = new QLabel(groupBox_2);
+        pro2_1Label->setObjectName(QString::fromUtf8("pro2_1Label"));
+        pro2_1Label->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        gridLayout_2->addWidget(pro2_1Label, 0, 0, 1, 1);
+
+        pro2_3SpinBox = new QSpinBox(groupBox_2);
+        pro2_3SpinBox->setObjectName(QString::fromUtf8("pro2_3SpinBox"));
+        pro2_3SpinBox->setValue(10);
+
+        gridLayout_2->addWidget(pro2_3SpinBox, 1, 2, 1, 1);
+
+        pro2_1SpinBox = new QSpinBox(groupBox_2);
+        pro2_1SpinBox->setObjectName(QString::fromUtf8("pro2_1SpinBox"));
+        pro2_1SpinBox->setValue(30);
+
+        gridLayout_2->addWidget(pro2_1SpinBox, 0, 2, 1, 1);
+
+        pro2_4LineEdit = new QLineEdit(groupBox_2);
+        pro2_4LineEdit->setObjectName(QString::fromUtf8("pro2_4LineEdit"));
+
+        gridLayout_2->addWidget(pro2_4LineEdit, 1, 5, 1, 1);
+
+        label_11 = new QLabel(groupBox_2);
+        label_11->setObjectName(QString::fromUtf8("label_11"));
+
+        gridLayout_2->addWidget(label_11, 2, 3, 1, 1);
+
+        pro2_5LineEdit = new QLineEdit(groupBox_2);
+        pro2_5LineEdit->setObjectName(QString::fromUtf8("pro2_5LineEdit"));
+
+        gridLayout_2->addWidget(pro2_5LineEdit, 2, 1, 1, 1);
+
+        pro2_5SpinBox = new QSpinBox(groupBox_2);
+        pro2_5SpinBox->setObjectName(QString::fromUtf8("pro2_5SpinBox"));
+        pro2_5SpinBox->setValue(10);
+
+        gridLayout_2->addWidget(pro2_5SpinBox, 2, 2, 1, 1);
+
+        pro2_6LineEdit = new QLineEdit(groupBox_2);
+        pro2_6LineEdit->setObjectName(QString::fromUtf8("pro2_6LineEdit"));
+
+        gridLayout_2->addWidget(pro2_6LineEdit, 2, 5, 1, 1);
+
+        label_9 = new QLabel(groupBox_2);
+        label_9->setObjectName(QString::fromUtf8("label_9"));
+
+        gridLayout_2->addWidget(label_9, 1, 3, 1, 1);
+
+        pro2_5Label = new QLabel(groupBox_2);
+        pro2_5Label->setObjectName(QString::fromUtf8("pro2_5Label"));
+        pro2_5Label->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        gridLayout_2->addWidget(pro2_5Label, 2, 0, 1, 1);
+
+        pro2_1LineEdit = new QLineEdit(groupBox_2);
+        pro2_1LineEdit->setObjectName(QString::fromUtf8("pro2_1LineEdit"));
+
+        gridLayout_2->addWidget(pro2_1LineEdit, 0, 1, 1, 1);
+
+        label_14 = new QLabel(groupBox_2);
+        label_14->setObjectName(QString::fromUtf8("label_14"));
+
+        gridLayout_2->addWidget(label_14, 0, 7, 1, 1);
+
+        pro2_3Label = new QLabel(groupBox_2);
+        pro2_3Label->setObjectName(QString::fromUtf8("pro2_3Label"));
+        pro2_3Label->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        gridLayout_2->addWidget(pro2_3Label, 1, 0, 1, 1);
 
         label_8 = new QLabel(groupBox_2);
         label_8->setObjectName(QString::fromUtf8("label_8"));
 
         gridLayout_2->addWidget(label_8, 3, 3, 1, 1);
 
-        pro2_8Label = new QLabel(groupBox_2);
-        pro2_8Label->setObjectName(QString::fromUtf8("pro2_8Label"));
-        pro2_8Label->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+        label_12 = new QLabel(groupBox_2);
+        label_12->setObjectName(QString::fromUtf8("label_12"));
 
-        gridLayout_2->addWidget(pro2_8Label, 3, 4, 1, 1);
+        gridLayout_2->addWidget(label_12, 3, 7, 1, 1);
 
         pro2_8LineEdit = new QLineEdit(groupBox_2);
         pro2_8LineEdit->setObjectName(QString::fromUtf8("pro2_8LineEdit"));
 
         gridLayout_2->addWidget(pro2_8LineEdit, 3, 5, 1, 1);
 
+        pro2_3LineEdit = new QLineEdit(groupBox_2);
+        pro2_3LineEdit->setObjectName(QString::fromUtf8("pro2_3LineEdit"));
+
+        gridLayout_2->addWidget(pro2_3LineEdit, 1, 1, 1, 1);
+
+        label_10 = new QLabel(groupBox_2);
+        label_10->setObjectName(QString::fromUtf8("label_10"));
+
+        gridLayout_2->addWidget(label_10, 0, 3, 1, 1);
+
         pro2_8SpinBox = new QSpinBox(groupBox_2);
         pro2_8SpinBox->setObjectName(QString::fromUtf8("pro2_8SpinBox"));
+        pro2_8SpinBox->setValue(5);
 
         gridLayout_2->addWidget(pro2_8SpinBox, 3, 6, 1, 1);
 
-        label_12 = new QLabel(groupBox_2);
-        label_12->setObjectName(QString::fromUtf8("label_12"));
-
-        gridLayout_2->addWidget(label_12, 3, 7, 1, 1);
-
+        pro2_1Label->raise();
+        pro2_1LineEdit->raise();
+        pro2_1SpinBox->raise();
+        pro2_2Label->raise();
+        pro2_2LineEdit->raise();
+        pro2_2SpinBox->raise();
+        pro2_3Label->raise();
+        pro2_3LineEdit->raise();
+        pro2_3SpinBox->raise();
+        pro2_4Label->raise();
+        pro2_4LineEdit->raise();
+        pro2_4SpinBox->raise();
+        pro2_5Label->raise();
+        pro2_5SpinBox->raise();
+        pro2_6Label->raise();
+        pro2_6LineEdit->raise();
+        pro2_6SpinBox->raise();
+        pro2_7Label->raise();
+        pro2_7LineEdit->raise();
+        pro2_7SpinBox->raise();
+        pro2_8Label->raise();
+        pro2_8LineEdit->raise();
+        pro2_8SpinBox->raise();
         pro2_5LineEdit->raise();
         label_8->raise();
         label_9->raise();
@@ -686,6 +752,7 @@ public:
 
         pro3_1SpinBox = new QSpinBox(groupBox_3);
         pro3_1SpinBox->setObjectName(QString::fromUtf8("pro3_1SpinBox"));
+        pro3_1SpinBox->setValue(30);
 
         gridLayout_3->addWidget(pro3_1SpinBox, 0, 2, 1, 1);
 
@@ -707,6 +774,7 @@ public:
 
         pro3_2SpinBox = new QSpinBox(groupBox_3);
         pro3_2SpinBox->setObjectName(QString::fromUtf8("pro3_2SpinBox"));
+        pro3_2SpinBox->setValue(5);
 
         gridLayout_3->addWidget(pro3_2SpinBox, 0, 6, 1, 1);
 
@@ -733,6 +801,7 @@ public:
 
         pro3_3SpinBox = new QSpinBox(groupBox_3);
         pro3_3SpinBox->setObjectName(QString::fromUtf8("pro3_3SpinBox"));
+        pro3_3SpinBox->setValue(10);
 
         gridLayout_3->addWidget(pro3_3SpinBox, 2, 2, 1, 1);
 
@@ -749,6 +818,7 @@ public:
 
         pro3_4SpinBox = new QSpinBox(groupBox_3);
         pro3_4SpinBox->setObjectName(QString::fromUtf8("pro3_4SpinBox"));
+        pro3_4SpinBox->setValue(15);
 
         gridLayout_3->addWidget(pro3_4SpinBox, 2, 6, 1, 1);
 
@@ -775,6 +845,7 @@ public:
 
         pro3_5SpinBox = new QSpinBox(groupBox_3);
         pro3_5SpinBox->setObjectName(QString::fromUtf8("pro3_5SpinBox"));
+        pro3_5SpinBox->setValue(5);
 
         gridLayout_3->addWidget(pro3_5SpinBox, 4, 2, 2, 1);
 
@@ -791,6 +862,7 @@ public:
 
         pro3_6SpinBox = new QSpinBox(groupBox_3);
         pro3_6SpinBox->setObjectName(QString::fromUtf8("pro3_6SpinBox"));
+        pro3_6SpinBox->setValue(10);
 
         gridLayout_3->addWidget(pro3_6SpinBox, 4, 6, 2, 1);
 
@@ -817,6 +889,7 @@ public:
 
         pro3_7SpinBox = new QSpinBox(groupBox_3);
         pro3_7SpinBox->setObjectName(QString::fromUtf8("pro3_7SpinBox"));
+        pro3_7SpinBox->setValue(10);
 
         gridLayout_3->addWidget(pro3_7SpinBox, 6, 2, 1, 1);
 
@@ -833,6 +906,7 @@ public:
 
         pro3_8SpinBox = new QSpinBox(groupBox_3);
         pro3_8SpinBox->setObjectName(QString::fromUtf8("pro3_8SpinBox"));
+        pro3_8SpinBox->setValue(5);
 
         gridLayout_3->addWidget(pro3_8SpinBox, 6, 6, 1, 1);
 
@@ -854,6 +928,7 @@ public:
 
         pro3_9SpinBox = new QSpinBox(groupBox_3);
         pro3_9SpinBox->setObjectName(QString::fromUtf8("pro3_9SpinBox"));
+        pro3_9SpinBox->setValue(10);
 
         gridLayout_3->addWidget(pro3_9SpinBox, 7, 2, 1, 1);
 
@@ -890,6 +965,7 @@ public:
 
         pro4_1SpinBox = new QSpinBox(groupBox_4);
         pro4_1SpinBox->setObjectName(QString::fromUtf8("pro4_1SpinBox"));
+        pro4_1SpinBox->setValue(40);
 
         gridLayout_4->addWidget(pro4_1SpinBox, 0, 2, 1, 1);
 
@@ -911,6 +987,7 @@ public:
 
         pro4_2SpinBox = new QSpinBox(groupBox_4);
         pro4_2SpinBox->setObjectName(QString::fromUtf8("pro4_2SpinBox"));
+        pro4_2SpinBox->setValue(10);
 
         gridLayout_4->addWidget(pro4_2SpinBox, 0, 6, 1, 1);
 
@@ -932,6 +1009,7 @@ public:
 
         pro4_3SpinBox = new QSpinBox(groupBox_4);
         pro4_3SpinBox->setObjectName(QString::fromUtf8("pro4_3SpinBox"));
+        pro4_3SpinBox->setValue(15);
 
         gridLayout_4->addWidget(pro4_3SpinBox, 1, 2, 1, 1);
 
@@ -953,6 +1031,7 @@ public:
 
         pro4_4SpinBox = new QSpinBox(groupBox_4);
         pro4_4SpinBox->setObjectName(QString::fromUtf8("pro4_4SpinBox"));
+        pro4_4SpinBox->setValue(10);
 
         gridLayout_4->addWidget(pro4_4SpinBox, 1, 6, 1, 1);
 
@@ -974,6 +1053,7 @@ public:
 
         pro4_5SpinBox = new QSpinBox(groupBox_4);
         pro4_5SpinBox->setObjectName(QString::fromUtf8("pro4_5SpinBox"));
+        pro4_5SpinBox->setValue(10);
 
         gridLayout_4->addWidget(pro4_5SpinBox, 2, 2, 1, 1);
 
@@ -995,6 +1075,7 @@ public:
 
         pro4_6SpinBox = new QSpinBox(groupBox_4);
         pro4_6SpinBox->setObjectName(QString::fromUtf8("pro4_6SpinBox"));
+        pro4_6SpinBox->setValue(5);
 
         gridLayout_4->addWidget(pro4_6SpinBox, 2, 6, 1, 1);
 
@@ -1016,6 +1097,7 @@ public:
 
         pro4_7SpinBox = new QSpinBox(groupBox_4);
         pro4_7SpinBox->setObjectName(QString::fromUtf8("pro4_7SpinBox"));
+        pro4_7SpinBox->setValue(10);
 
         gridLayout_4->addWidget(pro4_7SpinBox, 3, 2, 1, 1);
 
@@ -1052,6 +1134,7 @@ public:
 
         pro5_1SpinBox = new QSpinBox(groupBox_5);
         pro5_1SpinBox->setObjectName(QString::fromUtf8("pro5_1SpinBox"));
+        pro5_1SpinBox->setValue(15);
 
         gridLayout_5->addWidget(pro5_1SpinBox, 0, 2, 1, 1);
 
@@ -1073,6 +1156,7 @@ public:
 
         pro5_2SpinBox = new QSpinBox(groupBox_5);
         pro5_2SpinBox->setObjectName(QString::fromUtf8("pro5_2SpinBox"));
+        pro5_2SpinBox->setValue(30);
 
         gridLayout_5->addWidget(pro5_2SpinBox, 0, 6, 1, 1);
 
@@ -1094,6 +1178,7 @@ public:
 
         pro5_3SpinBox = new QSpinBox(groupBox_5);
         pro5_3SpinBox->setObjectName(QString::fromUtf8("pro5_3SpinBox"));
+        pro5_3SpinBox->setValue(20);
 
         gridLayout_5->addWidget(pro5_3SpinBox, 1, 2, 1, 1);
 
@@ -1115,6 +1200,7 @@ public:
 
         pro5_4SpinBox = new QSpinBox(groupBox_5);
         pro5_4SpinBox->setObjectName(QString::fromUtf8("pro5_4SpinBox"));
+        pro5_4SpinBox->setValue(10);
 
         gridLayout_5->addWidget(pro5_4SpinBox, 1, 6, 1, 1);
 
@@ -1136,6 +1222,7 @@ public:
 
         pro5_5SpinBox = new QSpinBox(groupBox_5);
         pro5_5SpinBox->setObjectName(QString::fromUtf8("pro5_5SpinBox"));
+        pro5_5SpinBox->setValue(10);
 
         gridLayout_5->addWidget(pro5_5SpinBox, 2, 2, 1, 1);
 
@@ -1157,6 +1244,7 @@ public:
 
         pro5_6SpinBox = new QSpinBox(groupBox_5);
         pro5_6SpinBox->setObjectName(QString::fromUtf8("pro5_6SpinBox"));
+        pro5_6SpinBox->setValue(5);
 
         gridLayout_5->addWidget(pro5_6SpinBox, 2, 6, 1, 1);
 
@@ -1178,6 +1266,7 @@ public:
 
         pro5_7SpinBox = new QSpinBox(groupBox_5);
         pro5_7SpinBox->setObjectName(QString::fromUtf8("pro5_7SpinBox"));
+        pro5_7SpinBox->setValue(10);
 
         gridLayout_5->addWidget(pro5_7SpinBox, 3, 2, 1, 1);
 
@@ -1214,6 +1303,7 @@ public:
 
         pro6_1SpinBox = new QSpinBox(groupBox_6);
         pro6_1SpinBox->setObjectName(QString::fromUtf8("pro6_1SpinBox"));
+        pro6_1SpinBox->setValue(30);
 
         gridLayout_6->addWidget(pro6_1SpinBox, 0, 2, 1, 1);
 
@@ -1235,6 +1325,7 @@ public:
 
         pro6_2SpinBox = new QSpinBox(groupBox_6);
         pro6_2SpinBox->setObjectName(QString::fromUtf8("pro6_2SpinBox"));
+        pro6_2SpinBox->setValue(10);
 
         gridLayout_6->addWidget(pro6_2SpinBox, 0, 6, 1, 1);
 
@@ -1256,6 +1347,7 @@ public:
 
         pro6_3SpinBox = new QSpinBox(groupBox_6);
         pro6_3SpinBox->setObjectName(QString::fromUtf8("pro6_3SpinBox"));
+        pro6_3SpinBox->setValue(20);
 
         gridLayout_6->addWidget(pro6_3SpinBox, 1, 2, 1, 1);
 
@@ -1277,6 +1369,7 @@ public:
 
         pro6_4SpinBox = new QSpinBox(groupBox_6);
         pro6_4SpinBox->setObjectName(QString::fromUtf8("pro6_4SpinBox"));
+        pro6_4SpinBox->setValue(5);
 
         gridLayout_6->addWidget(pro6_4SpinBox, 1, 6, 1, 1);
 
@@ -1298,6 +1391,7 @@ public:
 
         pro6_5SpinBox = new QSpinBox(groupBox_6);
         pro6_5SpinBox->setObjectName(QString::fromUtf8("pro6_5SpinBox"));
+        pro6_5SpinBox->setValue(10);
 
         gridLayout_6->addWidget(pro6_5SpinBox, 2, 2, 1, 1);
 
@@ -1319,6 +1413,7 @@ public:
 
         pro6_6SpinBox = new QSpinBox(groupBox_6);
         pro6_6SpinBox->setObjectName(QString::fromUtf8("pro6_6SpinBox"));
+        pro6_6SpinBox->setValue(10);
 
         gridLayout_6->addWidget(pro6_6SpinBox, 2, 6, 1, 1);
 
@@ -1340,6 +1435,7 @@ public:
 
         pro6_7SpinBox = new QSpinBox(groupBox_6);
         pro6_7SpinBox->setObjectName(QString::fromUtf8("pro6_7SpinBox"));
+        pro6_7SpinBox->setValue(5);
 
         gridLayout_6->addWidget(pro6_7SpinBox, 3, 2, 1, 1);
 
@@ -1361,6 +1457,7 @@ public:
 
         pro6_8SpinBox = new QSpinBox(groupBox_6);
         pro6_8SpinBox->setObjectName(QString::fromUtf8("pro6_8SpinBox"));
+        pro6_8SpinBox->setValue(10);
 
         gridLayout_6->addWidget(pro6_8SpinBox, 3, 6, 1, 1);
 
@@ -1374,17 +1471,8 @@ public:
 
         scrollArea->setWidget(scrollAreaWidgetContents);
 
-        horizontalLayout_9->addWidget(scrollArea);
+        verticalLayout_2->addWidget(scrollArea);
 
-        scrollArea->raise();
-        mark1Label->raise();
-        mark2Label->raise();
-        mark3Label->raise();
-        mark4Label->raise();
-        mark1SpinBox->raise();
-        mark2SpinBox->raise();
-        mark3SpinBox->raise();
-        mark4SpinBox->raise();
 #ifndef QT_NO_SHORTCUT
         mark1Label->setBuddy(mark1SpinBox);
         mark2Label->setBuddy(mark2SpinBox);
@@ -1397,14 +1485,14 @@ public:
         pro1_5Label->setBuddy(pro1_5LineEdit);
         pro1_6Label->setBuddy(pro1_6LineEdit);
         pro1_7Label->setBuddy(pro1_7LineEdit);
-        pro2_1Label->setBuddy(pro2_1LineEdit);
-        pro2_2Label->setBuddy(pro2_2LineEdit);
-        pro2_3Label->setBuddy(pro2_3LineEdit);
-        pro2_4Label->setBuddy(pro2_4LineEdit);
-        pro2_5Label->setBuddy(pro2_5LineEdit);
         pro2_6Label->setBuddy(pro2_6LineEdit);
-        pro2_7Label->setBuddy(pro2_7LineEdit);
         pro2_8Label->setBuddy(pro2_8LineEdit);
+        pro2_2Label->setBuddy(pro2_2LineEdit);
+        pro2_7Label->setBuddy(pro2_7LineEdit);
+        pro2_4Label->setBuddy(pro2_4LineEdit);
+        pro2_1Label->setBuddy(pro2_1LineEdit);
+        pro2_5Label->setBuddy(pro2_5LineEdit);
+        pro2_3Label->setBuddy(pro2_3LineEdit);
         pro3_1Label->setBuddy(pro3_1LineEdit);
         pro3_2Label->setBuddy(pro3_2LineEdit);
         pro3_3Label->setBuddy(pro3_3LineEdit);
@@ -1447,9 +1535,13 @@ public:
     {
         IndicateMng->setWindowTitle(QApplication::translate("IndicateMng", "IndicateMng", 0, QApplication::UnicodeUTF8));
         mark1Label->setText(QApplication::translate("IndicateMng", "\345\260\217\347\273\204\345\210\206", 0, QApplication::UnicodeUTF8));
+        label_47->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
         mark2Label->setText(QApplication::translate("IndicateMng", "\344\270\252\344\272\272\345\260\217\347\273\223\345\210\206", 0, QApplication::UnicodeUTF8));
+        label_48->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
         mark3Label->setText(QApplication::translate("IndicateMng", "\344\270\252\344\272\272\347\256\241\347\220\206\345\210\206", 0, QApplication::UnicodeUTF8));
+        label_49->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
         mark4Label->setText(QApplication::translate("IndicateMng", "\344\270\252\344\272\272\350\264\241\347\214\256\345\210\206", 0, QApplication::UnicodeUTF8));
+        label_50->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
         groupBox->setTitle(QApplication::translate("IndicateMng", "1. \350\275\257\344\273\266\350\256\241\345\210\222", 0, QApplication::UnicodeUTF8));
         pro1_1Label->setText(QApplication::translate("IndicateMng", "1-1", 0, QApplication::UnicodeUTF8));
         pro1_1LineEdit->setText(QApplication::translate("IndicateMng", "\351\241\271\347\233\256\351\200\211\351\242\230", 0, QApplication::UnicodeUTF8));
@@ -1473,30 +1565,30 @@ public:
         pro1_7LineEdit->setText(QApplication::translate("IndicateMng", "\346\217\220\344\272\244\345\217\212\346\227\266\345\272\246", 0, QApplication::UnicodeUTF8));
         label_4->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
         groupBox_2->setTitle(QApplication::translate("IndicateMng", "2. \351\234\200\346\261\202\345\210\206\346\236\220", 0, QApplication::UnicodeUTF8));
-        pro2_1Label->setText(QApplication::translate("IndicateMng", "2-1", 0, QApplication::UnicodeUTF8));
-        pro2_1LineEdit->setText(QApplication::translate("IndicateMng", "\345\212\237\350\203\275\346\200\247\351\234\200\346\261\202", 0, QApplication::UnicodeUTF8));
-        label_10->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
-        pro2_2Label->setText(QApplication::translate("IndicateMng", "2-2", 0, QApplication::UnicodeUTF8));
-        pro2_2LineEdit->setText(QApplication::translate("IndicateMng", "\351\235\236\345\212\237\350\203\275\346\200\247\351\234\200\346\261\202", 0, QApplication::UnicodeUTF8));
-        label_14->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
-        pro2_3Label->setText(QApplication::translate("IndicateMng", "2-3", 0, QApplication::UnicodeUTF8));
-        pro2_3LineEdit->setText(QApplication::translate("IndicateMng", "\346\225\260\346\215\256\350\246\201\346\261\202\350\257\264\346\230\216", 0, QApplication::UnicodeUTF8));
-        label_9->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
-        pro2_4Label->setText(QApplication::translate("IndicateMng", "2-4", 0, QApplication::UnicodeUTF8));
-        pro2_4LineEdit->setText(QApplication::translate("IndicateMng", "\351\252\214\346\224\266\346\240\207\345\207\206", 0, QApplication::UnicodeUTF8));
-        label_13->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
-        pro2_5Label->setText(QApplication::translate("IndicateMng", "2-5", 0, QApplication::UnicodeUTF8));
-        pro2_5LineEdit->setText(QApplication::translate("IndicateMng", "UML\350\241\250\347\244\272", 0, QApplication::UnicodeUTF8));
-        label_11->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
         pro2_6Label->setText(QApplication::translate("IndicateMng", "2-6", 0, QApplication::UnicodeUTF8));
-        pro2_6LineEdit->setText(QApplication::translate("IndicateMng", "\346\226\207\346\241\243\346\240\274\345\274\217\350\247\204\350\214\203\346\200\247", 0, QApplication::UnicodeUTF8));
-        label_15->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
+        pro2_8Label->setText(QApplication::translate("IndicateMng", "2-8", 0, QApplication::UnicodeUTF8));
+        pro2_2LineEdit->setText(QApplication::translate("IndicateMng", "\351\235\236\345\212\237\350\203\275\346\200\247\351\234\200\346\261\202", 0, QApplication::UnicodeUTF8));
+        label_13->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
+        pro2_2Label->setText(QApplication::translate("IndicateMng", "2-2", 0, QApplication::UnicodeUTF8));
         pro2_7Label->setText(QApplication::translate("IndicateMng", "2-7", 0, QApplication::UnicodeUTF8));
         pro2_7LineEdit->setText(QApplication::translate("IndicateMng", "\346\226\207\346\241\243\345\206\205\345\256\271\345\256\214\346\225\264\346\200\247", 0, QApplication::UnicodeUTF8));
+        label_15->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
+        pro2_4Label->setText(QApplication::translate("IndicateMng", "2-4", 0, QApplication::UnicodeUTF8));
+        pro2_1Label->setText(QApplication::translate("IndicateMng", "2-1", 0, QApplication::UnicodeUTF8));
+        pro2_4LineEdit->setText(QApplication::translate("IndicateMng", "\351\252\214\346\224\266\346\240\207\345\207\206", 0, QApplication::UnicodeUTF8));
+        label_11->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
+        pro2_5LineEdit->setText(QApplication::translate("IndicateMng", "UML\350\241\250\347\244\272", 0, QApplication::UnicodeUTF8));
+        pro2_6LineEdit->setText(QApplication::translate("IndicateMng", "\346\226\207\346\241\243\346\240\274\345\274\217\350\247\204\350\214\203\346\200\247", 0, QApplication::UnicodeUTF8));
+        label_9->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
+        pro2_5Label->setText(QApplication::translate("IndicateMng", "2-5", 0, QApplication::UnicodeUTF8));
+        pro2_1LineEdit->setText(QApplication::translate("IndicateMng", "\345\212\237\350\203\275\346\200\247\351\234\200\346\261\202", 0, QApplication::UnicodeUTF8));
+        label_14->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
+        pro2_3Label->setText(QApplication::translate("IndicateMng", "2-3", 0, QApplication::UnicodeUTF8));
         label_8->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
-        pro2_8Label->setText(QApplication::translate("IndicateMng", "2-8", 0, QApplication::UnicodeUTF8));
-        pro2_8LineEdit->setText(QApplication::translate("IndicateMng", "\346\217\220\344\272\244\345\217\212\346\227\266\345\272\246", 0, QApplication::UnicodeUTF8));
         label_12->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
+        pro2_8LineEdit->setText(QApplication::translate("IndicateMng", "\346\217\220\344\272\244\345\217\212\346\227\266\345\272\246", 0, QApplication::UnicodeUTF8));
+        pro2_3LineEdit->setText(QApplication::translate("IndicateMng", "\346\225\260\346\215\256\350\246\201\346\261\202\350\257\264\346\230\216", 0, QApplication::UnicodeUTF8));
+        label_10->setText(QApplication::translate("IndicateMng", "%", 0, QApplication::UnicodeUTF8));
         groupBox_3->setTitle(QApplication::translate("IndicateMng", "3. \350\275\257\344\273\266\350\256\276\350\256\241", 0, QApplication::UnicodeUTF8));
         pro3_1Label->setText(QApplication::translate("IndicateMng", "3-1", 0, QApplication::UnicodeUTF8));
         pro3_1LineEdit->setText(QApplication::translate("IndicateMng", "\344\275\223\347\263\273\347\273\223\346\236\204\350\256\276\350\256\241", 0, QApplication::UnicodeUTF8));
