@@ -33,9 +33,9 @@ int main(int argc, char *argv[])
 	if (!createConnection())
 		return 1;
 
-	w.show();
-
 	splash.finish(&w);
+	w.show();
+		
 	return a.exec();
 }
 
@@ -43,7 +43,7 @@ bool createConnection()
 //链接数据库
 {
 	QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-	db.setDatabaseName("SEEAS");
+	db.setDatabaseName("./SQL/SEEAS_Database.db");
 	if (!db.open()){
 		QMessageBox::critical(0, QObject::tr("数据库错误"), db.lastError().text());	//出错提示
 		return false;
