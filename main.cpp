@@ -40,11 +40,12 @@ int main(int argc, char *argv[])
 }
 
 bool createConnection()
+//链接数据库
 {
 	QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
 	db.setDatabaseName("SEEAS");
 	if (!db.open()){
-		QMessageBox::critical(0, QObject::tr("数据库错误"), db.lastError().text());
+		QMessageBox::critical(0, QObject::tr("数据库错误"), db.lastError().text());	//出错提示
 		return false;
 	}
 	return true;
