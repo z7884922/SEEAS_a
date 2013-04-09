@@ -1,27 +1,15 @@
-﻿生成启动时间为 2013/4/8 16:44:54。
+﻿生成启动时间为 2013/4/9 11:27:42。
      1>项目“E:\Workspace\Visual_Studio_2010\SEEAS\SEEAS\SEEAS.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
-         正在创建“Debug\SEEAS.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+         正在对“Debug\SEEAS.unsuccessfulbuild”执行 Touch 任务。
        CustomBuild:
-         Uic'ing indicatemng.ui...
-     1>E:\Workspace\Visual_Studio_2010\SEEAS\SEEAS\indicatemng.ui : warning : Z-order assignment: 'horizontalSpacer_5' is not a valid widget.
-     1>E:\Workspace\Visual_Studio_2010\SEEAS\SEEAS\indicatemng.ui : warning : Z-order assignment: 'horizontalSpacer_12' is not a valid widget.
-     1>E:\Workspace\Visual_Studio_2010\SEEAS\SEEAS\indicatemng.ui : warning : Z-order assignment: 'horizontalSpacer_13' is not a valid widget.
-     1>E:\Workspace\Visual_Studio_2010\SEEAS\SEEAS\indicatemng.ui : warning : Z-order assignment: 'horizontalSpacer_14' is not a valid widget.
-     1>E:\Workspace\Visual_Studio_2010\SEEAS\SEEAS\indicatemng.ui : warning : Z-order assignment: 'horizontalSpacer_15' is not a valid widget.
+         所有输出均为最新。
        ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.8.4\include /I.\GeneratedFiles\Debug /ID:\Qt\4.8.4\include\QtCore /ID:\Qt\4.8.4\include\QtGui /ID:\Qt\4.8.4\include\QtSql /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_indicatemng.cpp GeneratedFiles\Debug\moc_seeas.cpp GeneratedFiles\Debug\moc_stackeddlg.cpp indicatemng.cpp main.cpp seeas.cpp stackeddlg.cpp
-         moc_indicatemng.cpp
-         moc_seeas.cpp
-         moc_stackeddlg.cpp
-         indicatemng.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.8.4\include /I.\GeneratedFiles\Debug /ID:\Qt\4.8.4\include\QtCore /ID:\Qt\4.8.4\include\QtGui /ID:\Qt\4.8.4\include\QtSql /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-         seeas.cpp
-         stackeddlg.cpp
-         正在生成代码...
          所有输出均为最新。
        Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Workspace\Visual_Studio_2010\SEEAS\Win32\Debug\\SEEAS.exe" /NOLOGO /LIBPATH:D:\Qt\4.8.4\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtSqld4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SEEAS.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Workspace\Visual_Studio_2010\SEEAS\Win32\Debug\SEEAS.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Workspace\Visual_Studio_2010\SEEAS\Win32\Debug\SEEAS.lib" /MACHINE:X86 Debug\docummng.obj
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Workspace\Visual_Studio_2010\SEEAS\Win32\Debug\\SEEAS.exe" /NOLOGO /LIBPATH:D:\Qt\4.8.4\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtSqld4.lib .\sqlite_dll\sqlite3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SEEAS.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Workspace\Visual_Studio_2010\SEEAS\Win32\Debug\SEEAS.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Workspace\Visual_Studio_2010\SEEAS\Win32\Debug\SEEAS.lib" /MACHINE:X86 Debug\docummng.obj
          Debug\moc_docummng.obj
          Debug\moc_groupmng.obj
          Debug\moc_indicatemng.obj
@@ -35,7 +23,7 @@
          Debug\seeas.obj
          Debug\stackeddlg.obj
          Debug\welcome.obj
-         LINK : 没有找到 E:\Workspace\Visual_Studio_2010\SEEAS\Win32\Debug\\SEEAS.exe 或上一个增量链接没有生成它；正在执行完全链接
+         sqlite_dll\sqlite3.lib
          SEEAS.vcxproj -> E:\Workspace\Visual_Studio_2010\SEEAS\Win32\Debug\SEEAS.exe
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Workspace\Visual_Studio_2010\SEEAS\Win32\Debug\\SEEAS.exe;#1" /manifest Debug\SEEAS.exe.intermediate.manifest
@@ -46,4 +34,4 @@
 
 生成成功。
 
-已用时间 00:00:08.40
+已用时间 00:00:02.53
