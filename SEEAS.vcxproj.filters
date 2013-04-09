@@ -62,9 +62,6 @@
     <ClCompile Include="seeas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="groupmng.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_groupmng.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
@@ -80,23 +77,26 @@
     <ClCompile Include="GeneratedFiles\Release\moc_welcome.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="indicatemng.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_indicatemng.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_indicatemng.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="docummng.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_docummng.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_docummng.cpp">
       <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="docummng.cpp">
+      <Filter>Source Files\MainLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="groupmng.cpp">
+      <Filter>Source Files\MainLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="indicatemng.cpp">
+      <Filter>Source Files\MainLayout</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -153,5 +153,8 @@
     <ClInclude Include="GeneratedFiles\ui_docummng.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="sqlite_dll\sqlite3.lib" />
   </ItemGroup>
 </Project>

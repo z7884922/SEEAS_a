@@ -1,6 +1,7 @@
 #include "seeas.h"
 #include <QtGui/QApplication>
 
+bool createConnection();
 
 int main(int argc, char *argv[])
 {
@@ -27,9 +28,25 @@ int main(int argc, char *argv[])
 	/*for (int i=0; i<5000; i++){
 	splash.repaint();
 	}*/
+	splash.showMessage(QObject::tr("载入数据库..."), bottomRight, Qt::black);
 
-	w.show();
+	if (!createConnection())
+		return 1;
 
 	splash.finish(&w);
+	w.show();
+		
 	return a.exec();
+}
+
+bool createConnection()
+//链接数据库
+{
+	QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
+	db.setDatabaseName("./SQL/SEEAS_Database.db");
+	if (!db.open()){
+		QMessageBox::critical(0, QObject::tr("数据库错误"), db.lastError().text());	//出错提示
+		return false;
+	}
+	return true;
 }

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'seeas.ui'
 **
-** Created: Tue Apr 2 19:29:20 2013
+** Created: Tue Apr 2 20:04:26 2013
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!

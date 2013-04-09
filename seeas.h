@@ -19,6 +19,10 @@
 #include <QtGui/QStatusBar>
 #include <QIcon>
 #include <QHBoxLayout>
+#include <QtSql\qsql.h>
+#include <QtSql\qsqldatabase.h>
+#include <QtSql\qsql_sqlite.h>
+#include <QtSql\qsqlerror.h>
 
 class QLabel;
 class QAction;
